@@ -55,6 +55,27 @@
     margin: 32px;
 }
 
+@media (max-width: 600px) {
+    .Recomentation .top {
+        display: flex;
+        /* flex-direction: column; */
+    }
+
+    .Recomentation .top .search {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .Recomentation .top .search input {
+        display: none;
+    }
+
+    .Recomentation .top .perfil img {
+        width: 32px;
+        height: 32px;
+    }
+}
+
 .Recomentation .top .search {
     display: flex;
 }

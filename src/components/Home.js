@@ -19,7 +19,7 @@ export function Home() {
                     <div className={styles.perfil}>
                         <img src="assets/duvida.svg" />
                         <img src="assets/sino.svg" />
-                        <img src="https://github.com/zagob.png" width="32" />
+                        <img className={styles.com} src="https://github.com/zagob.png" />
                     </div>
                 </div>
 
