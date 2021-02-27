@@ -1,0 +1,153 @@
+.Container {
+    background: linear-gradient(130.05deg, #FAFEFF -0.02%, #EFFCFF 99.98%);
+    padding: 5px 0;
+}
+
+.Container .Content {
+    margin: 32px;
+}
+
+.Container .Title h1 {
+    font-family: Roboto;
+    font-size: 20px;
+    color: #414141;
+}
+
+.Container .Content .ContentCard {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+@media (max-width: 998px) {
+    .Container .Content .ContentCard {
+        grid-template-columns: 1fr;
+
+        margin: 0 auto;
+    }
+}
+
+.Container .Content .Card {
+    background: linear-gradient(248.59deg, rgba(0, 26, 39, 0.13) 38.5%, rgba(0, 26, 39, 0.72) 98.44%);
+    opacity: 0.9;
+    background-image: url('../../../public/assets/cont-img.svg');
+    background-repeat: no-repeat;
+    width: 440.49px;
+    height: 266.91px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    .Container .Content .Card {
+        background: linear-gradient(248.59deg, rgba(0, 26, 39, 0.13) 38.5%, rgba(0, 26, 39, 0.72) 98.44%);
+        opacity: 0.9;
+        background-image: url('../../../public/assets/small-img.svg');
+        background-repeat: no-repeat;
+        width: 244px;
+        height: 247px;
+        border-radius: 5px;
+    }
+}
+
+.Container .Content .Card .Title1 {
+    padding: 50px 0 50px 32px;
+}
+
+.Container .Content .Card .Title1 h2 {
+    font-family: Roboto;
+    font-size: 32px;
+    color: #fff;
+    width: 140px;
+}
+
+.Container .Content .Card .Title1 span {
+    color: #96DCFA;
+}
+
+.Container .Content .Card .Title2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Container .Content .Card .Title2 p {
+    color: #000;
+}
+
+.Container .Content .Card .Title2 button {
+    font-family: Roboto;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 8px 18px;
+    background: linear-gradient(274.13deg, #197ACF 0.89%, #1A8DE9 98.03%);
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.Container .Content .Card .Title2 button:hover {
+    background: linear-gradient(274.13deg, #0b5aa0 0.89%, #1176c9 98.03%);
+}
+
+
+
+/****************************************************************************************/
+.Container .Content .Card2 {
+    background: linear-gradient(248.59deg, rgba(0, 26, 39, 0.13) 38.5%, rgba(0, 26, 39, 0.72) 98.44%);
+    opacity: 0.9;
+    background-image: url('../../../public/assets/cont-img2.svg');
+    width: 440.49px;
+    height: 266.91px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    .Container .Content .Card2 {
+        background: linear-gradient(248.59deg, rgba(0, 26, 39, 0.13) 38.5%, rgba(0, 26, 39, 0.72) 98.44%);
+        opacity: 0.9;
+        background-image: url('../../../public/assets/cont-img2.svg');
+        background-repeat: no-repeat;
+        width: 244px;
+        height: 247px;
+        border-radius: 5px;
+    }
+}
+
+.Container .Content .Card2 .Title1 {
+    padding: 50px 0 50px 32px;
+}
+
+.Container .Content .Card2 .Title1 h2 {
+    font-family: Roboto;
+    font-size: 32px;
+    color: #fff;
+    width: 140px;
+}
+
+.Container .Content .Card2 .Title1 span {
+    color: #96DCFA;
+}
+
+.Container .Content .Card2 .Title2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Container .Content .Card2 .Title2 p {
+    color: #000;
+}
+
+.Container .Content .Card2 .Title2 button {
+    font-family: Roboto;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 8px 18px;
+    background: linear-gradient(274.13deg, #197ACF 0.89%, #1A8DE9 98.03%);
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.Container .Content .Card2 .Title2 button:hover {
+    background: linear-gradient(274.13deg, #0b5aa0 0.89%, #1176c9 98.03%);
+}

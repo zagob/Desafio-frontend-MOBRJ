@@ -1,0 +1,47 @@
+.Container .Content div {
+    display: none;
+}
+
+@media (max-width: 1340px) {
+    .Container {
+        box-shadow: 0px 2px 11px 1px #000000;
+        background: #fff;
+        height: 60px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    .Container .Content {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 100%;
+    }
+
+    .Container .Content div {
+        padding: 5px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* background: rgba(25, 122, 207, 0.1); */
+        border-radius: 4px;
+    }
+
+    .Container .Content .inicio {
+        background: rgba(25, 122, 207, 0.1);
+    }
+
+    .Container .Content div p {
+        font-family: Roboto;
+        font-size: 14px;
+        color: #197ACF;
+    }
+
+    .Container .Content div:hover {
+        background: rgba(25, 122, 207, 0.1);
+        cursor: pointer;
+    }
+}

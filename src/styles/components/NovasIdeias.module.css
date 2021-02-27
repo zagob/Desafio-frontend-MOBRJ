@@ -1,0 +1,163 @@
+.Container {
+    background: linear-gradient(130.05deg, #FAFEFF -0.02%, #EFFCFF 99.98%);
+    padding: 32px 0;
+}
+
+.Container .Content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.Container .Content h2 {
+    font-family: Roboto;
+    font-size: 20px;
+    color: #414141;
+    text-align: center;
+}
+
+.Container .Content h1 {
+    font-family: Roboto;
+    font-size: 24px;
+    line-height: 32px;
+    color: #1A8DE9;
+    text-align: center;
+}
+
+.Container .Content section {
+    margin: 20px 0;
+}
+
+@media (max-width: 650px) {
+    .Container .Content section {
+        display: flex;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        max-width: 340px;
+        margin: 20px auto;
+
+        /* scrollbar-base-color: #C0C0C0;
+        scrollbar-base-color: #C0C0C0;
+        scrollbar-3dlight-color: #C0C0C0;
+        scrollbar-highlight-color: #C0C0C0;
+        scrollbar-track-color: #EBEBEB;
+        scrollbar-arrow-color: red;
+        scrollbar-shadow-color: #C0C0C0; */
+        /* scrollbar-dark-shadow-color: #C0C0C0; */
+    }
+
+    .Container .Content section::-webkit-scrollbar {
+        /* border: 1px solid red; */
+        /* scrollbar-arrow-color: red; */
+        color: #032A5E;
+    }
+
+    .Container .Content section::-webkit-scrollbar-track {
+        background-color: #F4F4F4;
+    }
+
+    .Container .Content section::-webkit-scrollbar {
+        width: 6px;
+        background: #F4F4F4;
+    }
+
+    .Container .Content section::-webkit-scrollbar-thumb {
+        background: #dad7d7;
+    }
+
+    .Container .Content section .options1 {
+        margin: 0;
+    }
+
+    .Container .Content section .options1 a {
+        margin: 0 5px;
+    }
+
+    .Container .Content section .options2 a {
+        margin: 0 5px;
+        padding: 5px 10px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.Container .Content .options1 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.Container .Content a {
+    border: 1px solid #032A5E;
+    border-radius: 20px;
+    padding: 5px 10px;
+    transition: 0.3s;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    color: #032A5E;
+}
+
+.Container .Content a:hover {
+    background: #032A5E;
+    cursor: pointer;
+    color: #fff;
+}
+
+.Container .Content .options2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Container .Content .Busca {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+@media (max-width: 650px) {
+    .Container .Content .Busca {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Container .Content .Busca div {
+        margin-bottom: 20px;
+    }
+
+    .Container .Content .Busca button {
+        width: 100%;
+    }
+}
+
+.Container .Content .Busca div {
+    display: flex;
+    align-items: center;
+}
+
+.Container .Content .Busca input {
+    border-bottom: 1px solid #999999;
+    background: transparent;
+    width: 400px;
+    padding: 0 10px;
+    margin-top: 15px;
+}
+
+.Container .Content .Busca img {
+    margin-top: 15px;
+}
+
+.Container .Content .Busca button {
+    background: #1A8DE9;
+    padding: 10px 32px;
+    border-radius: 5px;
+    color: #fff;
+    font-family: Roboto;
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+
+.Container .Content .Busca button:hover {
+    opacity: 0.8;
+}

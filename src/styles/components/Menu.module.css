@@ -1,0 +1,90 @@
+.Container {
+    position: static;
+    max-width: 400px;
+    min-width: 200px;
+    width: 100vw;
+    border-right: 0.5px solid #D9D9D9;
+    height: 3000px;
+}
+
+.Container .Logo {
+    box-shadow: 0px 2px 11px -5px #000000;
+    background: #fff;
+}
+
+.Container img {
+    /* width: 100%; */
+    margin: 0 auto;
+    /* padding: 0 120px; */
+}
+
+.Container .Links {
+    padding: 32px;
+}
+
+.Container .Links .Inicio h2 {
+    color: #1A8DE9;
+    font-size: 22px;
+
+}
+
+@media (max-width: 1400px) {
+    .Container .Links .Inicio h2 {
+        font-size: 18px;
+    }
+}
+
+.Container .Links div {
+    border-bottom: 0.5px solid #D9D9D9;
+    padding: 20px 0;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.Container .Links h2 {
+    color: #003781;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+@media (max-width: 1400px) {
+    .Container .Links h2 {
+        font-size: 16px;
+    }
+}
+
+.Container .Links a {
+    color: #999999;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    transition: 0.2s;
+    margin: 5px 0;
+}
+
+@media (max-width: 1400px) {
+    .Container .Links a {
+        color: #999999;
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 16px;
+        transition: 0.2s;
+    }
+
+}
+
+.Container .Links a:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    color: #1A8DE9;
+}
+
+@media (max-width: 1340px) {
+    .Container {
+        display: none;
+    }
+}

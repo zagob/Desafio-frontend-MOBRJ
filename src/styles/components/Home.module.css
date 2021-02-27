@@ -1,0 +1,103 @@
+.Container {
+    /* width: 80vw; */
+    background-image: url('../../../public/assets/banner.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 1500px;
+    /* width: 1100px; */
+    height: 344px;
+}
+
+@media (min-width: 300px) {
+    .Container {
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 700px) {
+    .Recomentation .TituloBotao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.Recomentation h1 {
+    color: white;
+}
+
+.Recomentation .top {
+    display: flex;
+    justify-content: space-between;
+    margin: 32px;
+}
+
+.Recomentation .top .search {
+    display: flex;
+}
+
+.Recomentation .top .search img:first-child {
+    margin-right: 5px;
+}
+
+.Recomentation .top .search input {
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+
+}
+
+.Recomentation .top .perfil {
+    display: flex;
+}
+
+.Recomentation .top .perfil img {
+    margin: 0 10px;
+}
+
+.Recomentation .top .perfil img+img+img {
+    border-radius: 50%;
+}
+
+.Recomentation .TituloBotao {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 200px;
+    margin: 32px;
+}
+
+.Recomentation .TituloBotao .title h1 {
+    font-size: 32px;
+    line-height: 38px;
+    max-width: 400px;
+    font-family: Roboto;
+}
+
+.Recomentation .TituloBotao .title span {
+    color: #96DCFA;
+}
+
+.Recomentation .TituloBotao .title p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 400px;
+    font-family: Roboto;
+}
+
+.Recomentation .TituloBotao .button button {
+    background: #197ACF;
+    border-radius: 4px;
+    color: #fff;
+    padding: 10px 32px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    transition: 0.2s;
+}
+
+.Recomentation .TituloBotao .button button:hover {
+    background: #0e61aa;
+}
