@@ -13,7 +13,7 @@ yarn dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 
-## Projeto Desenvolvido como um desafio para MOBRJ
+## Projeto Desenvolvido de um desafio-frontend MOBRJ
 
 ## Acesso em: https://desafio-frontend-mobrj.vercel.app/
 
