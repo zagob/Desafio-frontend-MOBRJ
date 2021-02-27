@@ -18,7 +18,7 @@ export function Menu() {
                     <a>Podcasts</a>
                 </div>
                 <div>
-                    <h2>Navegar</h2>
+                    <h2>Categorias</h2>
                     <a>Ferramentas e Sistemas</a>
                     <a>Gestão Estratégica</a>
                     <a>Produtos</a>
